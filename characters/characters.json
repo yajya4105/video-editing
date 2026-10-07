@@ -1,0 +1,25 @@
+{
+  "_help": "Recurring cast. Each character: fixed look prompt, reference image (repo path + ElevenLabs flow/node so it can be wired as connect_from), fixed voice. Add a character once, reuse forever.",
+  "flow_id": "amj81GKxoA04KduJrsZe",
+  "characters": [
+    {
+      "id": "babuji",
+      "name": "Babuji (clerk, Paisa Sahayata Kendra)",
+      "role": "deadpan money-advice clerk, main narrator",
+      "look": "middle-aged Indian man, thick shiny black bowl-cut hair with heavy straight fringe, thick black handlebar mustache, maroon sweater over collared shirt",
+      "location": "retro 1980s Indian government office: mint-green peeling wall, steel almirah, file stacks, rotary phone",
+      "reference_image": "noida-short/image.png",
+      "reference_node_id": "V3XK89V706AndCgyZDV2",
+      "voice": {"voice_id": "x8QLi04vAqWNOHsZm7yK", "name": "Saurav tandon 2 pro", "model": "eleven_multilingual_v2"}
+    },
+    {
+      "id": "billu",
+      "name": "Billu (orange tabby cat)",
+      "role": "silent sidekick, reaction shots",
+      "look": "orange tabby cat, serious unimpressed face",
+      "reference_image": "noida-short/shot_cat.png",
+      "reference_node_id": "T22norAUCKBrNiz4PIFX",
+      "voice": null
+    }
+  ]
+}
