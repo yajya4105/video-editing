@@ -1,0 +1,67 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sign,Inter Display Black,96,&H00F2F2F2,&H00F2F2F2,&H00000000,&H00000000,-1,0,0,0,100,100,2,0,1,0,3,8,40,40,95,1
+Style: Title,Inter Display Black,86,&H00FFFFFF,&H00FFFFFF,&H00000000,&H64000000,-1,0,0,0,100,100,0,0,1,6,4,8,30,30,1000,1
+Style: Sub,Noto Sans Devanagari,76,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,6,3,2,50,50,210,1
+Style: Head,Noto Sans Devanagari,104,&H0000D7FF,&H0000D7FF,&H00000000,&H96000000,-1,0,0,0,100,100,0,0,1,7,4,2,50,50,200,1
+Style: Tag,Inter Display Black,46,&H00000000,&H00000000,&H0000D7FF,&H0000D7FF,-1,0,0,0,100,100,1,0,3,14,0,2,50,50,390,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:48.60,Sign,,0,0,0,,PAISA SAHAYATA\NKENDRA
+Dialogue: 0,0:00:00.00,0:00:48.60,Title,,0,0,0,,NOIDA MEIN FLAT\NLENE SE PEHLE\N{\c&H0000D7FF&}KYA DEKHEIN?
+Dialogue: 1,0:00:00.00,0:00:01.00,Sub,,0,0,0,,नोएडा में फ्लैट लेने
+Dialogue: 1,0:00:01.00,0:00:01.60,Sub,,0,0,0,,जा रहे हो?
+Dialogue: 1,0:00:01.60,0:00:02.46,Sub,,0,0,0,,रुको।
+Dialogue: 1,0:00:02.46,0:00:03.50,Sub,,0,0,0,,पहले ये पाँच चीज़ें
+Dialogue: 1,0:00:03.50,0:00:04.06,Sub,,0,0,0,,देख लो,
+Dialogue: 1,0:00:04.06,0:00:05.26,Sub,,0,0,0,,वरना सपनों का घर,
+Dialogue: 1,0:00:05.26,0:00:06.30,Sub,,0,0,0,,EMI की जेल बन
+Dialogue: 1,0:00:06.30,0:00:07.36,Sub,,0,0,0,,जाएगा।
+Dialogue: 1,0:00:07.36,0:00:08.12,Head,,0,0,0,,{\fad(80,0)\t(0,120,\fscx112\fscy112)\t(120,240,\fscx100\fscy100)}#1 पहला
+Dialogue: 1,0:00:08.12,0:00:09.48,Sub,,0,0,0,,UP RERA नंबर।
+Dialogue: 1,0:00:09.48,0:00:10.76,Sub,,0,0,0,,वेबसाइट पे प्रोजेक्ट चेक
+Dialogue: 1,0:00:10.76,0:00:11.48,Sub,,0,0,0,,करो।
+Dialogue: 1,0:00:11.48,0:00:12.06,Sub,,0,0,0,,RERA नहीं,
+Dialogue: 1,0:00:12.06,0:00:13.40,Sub,,0,0,0,,तो डील नहीं।
+Dialogue: 1,0:00:13.40,0:00:14.29,Head,,0,0,0,,{\fad(80,0)\t(0,120,\fscx112\fscy112)\t(120,240,\fscx100\fscy100)}#2 दूसरा
+Dialogue: 1,0:00:14.29,0:00:15.21,Sub,,0,0,0,,रेडी फ्लैट ले रहे
+Dialogue: 1,0:00:15.21,0:00:15.66,Sub,,0,0,0,,हो?
+Dialogue: 1,0:00:15.66,0:00:17.83,Sub,,0,0,0,,तो Occupancy Certificate माँगो।
+Dialogue: 1,0:00:17.83,0:00:19.03,Sub,,0,0,0,,बिना OC के रजिस्ट्री
+Dialogue: 1,0:00:19.03,0:00:20.43,Sub,,0,0,0,,अटक सकती है।
+Dialogue: 1,0:00:20.43,0:00:21.45,Head,,0,0,0,,{\fad(80,0)\t(0,120,\fscx112\fscy112)\t(120,240,\fscx100\fscy100)}#3 तीसरा
+Dialogue: 1,0:00:21.45,0:00:22.73,Sub,,0,0,0,,बिल्डर ने नोएडा अथॉरिटी
+Dialogue: 1,0:00:22.73,0:00:23.82,Sub,,0,0,0,,का बकाया चुकाया है
+Dialogue: 1,0:00:23.82,0:00:24.29,Sub,,0,0,0,,या नहीं,
+Dialogue: 1,0:00:24.29,0:00:25.50,Sub,,0,0,0,,पता करो।
+Dialogue: 1,0:00:25.50,0:00:26.89,Sub,,0,0,0,,हज़ारों लोगों की रजिस्ट्री
+Dialogue: 1,0:00:26.89,0:00:27.93,Sub,,0,0,0,,इसी चक्कर में सालों
+Dialogue: 1,0:00:27.93,0:00:29.47,Sub,,0,0,0,,से रुकी पड़ी है।
+Dialogue: 1,0:00:29.48,0:00:30.36,Head,,0,0,0,,{\fad(80,0)\t(0,120,\fscx112\fscy112)\t(120,240,\fscx100\fscy100)}#4 चौथा
+Dialogue: 1,0:00:30.36,0:00:31.65,Sub,,0,0,0,,कार्पेट एरिया पूछो,
+Dialogue: 1,0:00:31.65,0:00:33.06,Sub,,0,0,0,,सुपर एरिया नहीं।
+Dialogue: 1,0:00:33.06,0:00:34.21,Sub,,0,0,0,,पैसा दीवारों के अंदर
+Dialogue: 1,0:00:34.21,0:00:34.70,Sub,,0,0,0,,का दो,
+Dialogue: 1,0:00:34.70,0:00:35.98,Sub,,0,0,0,,बाहर का नहीं।
+Dialogue: 1,0:00:35.98,0:00:37.07,Head,,0,0,0,,{\fad(80,0)\t(0,120,\fscx112\fscy112)\t(120,240,\fscx100\fscy100)}#5 पाँचवाँ
+Dialogue: 1,0:00:37.10,0:00:38.96,Sub,,0,0,0,,EMI आपकी महीने की
+Dialogue: 1,0:00:38.96,0:00:40.41,Sub,,0,0,0,,कमाई के तीस-पैंतीस परसेंट
+Dialogue: 1,0:00:40.41,0:00:41.55,Sub,,0,0,0,,से ज़्यादा ना हो।
+Dialogue: 1,0:00:41.55,0:00:42.20,Sub,,0,0,0,,घर लेना है,
+Dialogue: 1,0:00:42.20,0:00:43.54,Sub,,0,0,0,,गिरवी नहीं रखना।
+Dialogue: 1,0:00:43.54,0:00:44.87,Sub,,0,0,0,,बिल्लू भी सहमत है।
+Dialogue: 1,0:00:44.87,0:00:45.56,Sub,,0,0,0,,ये सलाह है,
+Dialogue: 1,0:00:45.56,0:00:46.60,Sub,,0,0,0,,गारंटी नहीं।
+Dialogue: 1,0:00:46.60,0:00:48.60,Sub,,0,0,0,,अपनी रिसर्च खुद करो।
+Dialogue: 0,0:00:07.36,0:00:13.40,Tag,,0,0,0,,{\fad(150,150)}1/5 · RERA CHECK
+Dialogue: 0,0:00:13.40,0:00:20.43,Tag,,0,0,0,,{\fad(150,150)}2/5 · OC CERTIFICATE
+Dialogue: 0,0:00:20.43,0:00:29.48,Tag,,0,0,0,,{\fad(150,150)}3/5 · AUTHORITY DUES
+Dialogue: 0,0:00:29.48,0:00:35.98,Tag,,0,0,0,,{\fad(150,150)}4/5 · CARPET AREA
+Dialogue: 0,0:00:35.98,0:00:43.50,Tag,,0,0,0,,{\fad(150,150)}5/5 · EMI ≤ 35%
