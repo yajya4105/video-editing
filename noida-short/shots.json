@@ -1,0 +1,22 @@
+{
+  "_help": "One entry per cut. src = image file; crop = [w,h,x,y] in source pixels (9:16 window) or null for full frame; move = in|out|left|right|punch|up; fx = optional 'bars'. Times in seconds, matched to words.json.",
+  "shots": [
+    {"t": 0.00,  "src": "image.png",     "crop": [648, 1152, 700, 0],   "move": "in",    "note": "hook: wide"},
+    {"t": 1.60,  "src": "image.png",     "crop": [470, 836, 795, 70],   "move": "punch", "note": "रुको — face punch-in"},
+    {"t": 2.46,  "src": "image.png",     "crop": [648, 1152, 640, 0],   "move": "right", "note": "5 cheezein — wide pan"},
+    {"t": 4.06,  "src": "image.png",     "crop": [430, 764, 1315, 60],  "move": "in",    "note": "sapnon ka ghar — apartment poster"},
+    {"t": 5.25,  "src": "image.png",     "crop": [470, 836, 795, 70],   "move": "out",   "fx": "bars", "note": "EMI ki jail — face behind bars"},
+    {"t": 7.36,  "src": "image.png",     "crop": [600, 1067, 0, 40],    "move": "right", "note": "#1 RERA — files & almirah"},
+    {"t": 10.10, "src": "image.png",     "crop": [470, 836, 795, 70],   "move": "in",    "note": "RERA nahi to deal nahi — face"},
+    {"t": 13.40, "src": "shot_oc.png",   "crop": null,                  "move": "in",    "note": "#2 OC certificate"},
+    {"t": 20.43, "src": "image.png",     "crop": [600, 1067, 0, 40],    "move": "up",    "note": "#3 authority dues — file piles"},
+    {"t": 25.50, "src": "image.png",     "crop": [640, 1138, 1400, 14], "move": "left",  "note": "hazaron registry ruki — desk files"},
+    {"t": 29.48, "src": "image.png",     "crop": [430, 764, 1315, 60],  "move": "out",   "note": "#4 carpet area — poster"},
+    {"t": 33.06, "src": "image.png",     "crop": [470, 836, 795, 70],   "move": "in",    "note": "deewaron ke andar — face"},
+    {"t": 35.98, "src": "image.png",     "crop": [648, 1152, 700, 0],   "move": "in",    "note": "#5 EMI — wide"},
+    {"t": 39.43, "src": "image.png",     "crop": [400, 711, 830, 110],  "move": "punch", "note": "30-35% — extreme face"},
+    {"t": 41.55, "src": "image.png",     "crop": [560, 996, 1150, 156], "move": "right", "note": "girvi nahi — phone/desk"},
+    {"t": 43.54, "src": "shot_cat.png",  "crop": null,                  "move": "punch", "note": "Billu agrees"},
+    {"t": 44.87, "src": "image.png",     "crop": [470, 836, 795, 70],   "move": "in",    "note": "closing — face"}
+  ]
+}
