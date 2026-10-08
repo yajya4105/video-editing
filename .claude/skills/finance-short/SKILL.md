@@ -47,6 +47,18 @@ editing runs locally with ffmpeg via `build.py`. Reference project: `noida-short
 - Never re-run a generation call to "retry"; check status with `creative_get_flow_run_status`.
 - **Timing**: `creative_transcribe_audio` (Scribe, free) on the final voice -> `words.json`.
 
+### Free route: Google Veo daily credits (user generates)
+
+Default when the user wants motion + lip-sync without paid credits. Veo's free daily
+credits only work in the user's own Google Flow / Gemini app, so:
+1. Write `veo_prompts.md` (see `noida-short/veo_prompts.md`): one prompt per ≤8 s clip,
+   9:16, the character's reference image as starting frame/ingredient, the exact Hindi line
+   in quotes ("says in Hindi: ..."), and "No on-screen text, no subtitles, no music".
+2. User generates the clips and uploads them to a Google Drive folder (e.g. `veo-<slug>`).
+3. Fetch them with the Google Drive connector (`search_files`, `download_file_content`),
+   keep Veo's own audio (it is lip-synced), get timings with Scribe on the joined audio,
+   then edit as in Phase 4 (cuts = clip order, banner + subtitles on top).
+
 ## Phase 4 - Edit (local, free)
 
 Copy `noida-short/build.py` into the video folder, fill `shots.json` (times from
